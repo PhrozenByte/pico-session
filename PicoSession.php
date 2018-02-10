@@ -36,7 +36,7 @@ class PicoSession extends AbstractPicoPlugin
         }
     }
 
-    public function onPluginsLoaded(array &$plugins)
+    public function onPluginsLoaded(array $plugins)
     {
         // require >= Pico 2.0; Pico::VERSION wasn't defined before Pico 2.0
         if (!defined('Pico::VERSION')) {
