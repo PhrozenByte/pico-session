@@ -1,8 +1,8 @@
 {
     "name": "phrozenbyte/pico-session",
     "type": "pico-plugin",
-    "description": "This is Pico's official session plugin. Pico is a stupidly simple, blazing fast, flat file CMS.",
-    "keywords": [ "pico", "pico-plugin" ],
+    "description": "This is Pico's official utility plugin for session management. Pico is a stupidly simple, blazing fast, flat file CMS.",
+    "keywords": [ "pico", "picocms", "picocms-plugin", "pico-session", "session", "session-management", "utility" ],
     "homepage": "http://picocms.org/",
     "license": "MIT",
     "authors": [
@@ -12,9 +12,8 @@
             "role": "Lead Developer"
         },
         {
-            "name": "The Pico Community",
-            "homepage": "https://github.com/PhrozenByte/pico-file-prefixes/graphs/contributors",
-            "role": "Contributors"
+            "name": "Contributors",
+            "homepage": "https://github.com/PhrozenByte/pico-session/graphs/contributors"
         }
     ],
     "support": {
