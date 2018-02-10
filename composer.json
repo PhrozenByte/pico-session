@@ -1,0 +1,32 @@
+{
+    "name": "phrozenbyte/pico-session",
+    "type": "pico-plugin",
+    "description": "This is Pico's official session plugin. Pico is a stupidly simple, blazing fast, flat file CMS.",
+    "keywords": [ "pico", "pico-plugin" ],
+    "homepage": "http://picocms.org/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Rudolf",
+            "homepage": "http://daniel-rudolf.de/",
+            "role": "Lead Developer"
+        },
+        {
+            "name": "The Pico Community",
+            "homepage": "https://github.com/PhrozenByte/pico-file-prefixes/graphs/contributors",
+            "role": "Contributors"
+        }
+    ],
+    "support": {
+        "docs": "http://picocms.org/docs/pico-session/",
+        "issues": "https://github.com/PhrozenByte/pico-session/issues",
+        "source": "https://github.com/PhrozenByte/pico-session"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "paragonie/random_compat": "^2.0"
+    },
+    "autoload": {
+        "classmap": [ "PicoSession.php" ]
+    }
+}
